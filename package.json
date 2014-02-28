@@ -2,7 +2,7 @@
   "name": "karma-chai-things",
   "description": "Chai Things plugin for Karma",
   "keywords": [
-    "karma",
+      "karma",
     "chai",
     "things",
     "mocha"
@@ -19,13 +19,9 @@
   "bugs": {
     "url": "https://github.com/solatis/karma-chai-things/issues"
   },
-  "contributors": [
-    "Greg Thornton <xdissent@me.com>",
-    "Tobias Kopelke <nox@raynode.de>"
-  ],
   "dependencies": {
-    "chai": "~1.9",
-    "chai-things": "~0.2"
+    "chai-things": "~0.2",
+    "path": "~0.4"
   },
   "peerDependencies": {
     "karma": "~0.10"
