@@ -2,12 +2,12 @@
   "name": "karma-chai-things",
   "description": "Chai Things plugin for Karma",
   "keywords": [
-      "karma",
+    "karma",
     "chai",
     "things",
     "mocha"
   ],
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Leon Mergen <leon2solatis.com>",
   "main": "./index.js",
   "license": "MIT",
@@ -19,11 +19,11 @@
   "bugs": {
     "url": "https://github.com/solatis/karma-chai-things/issues"
   },
-  "dependencies": {
-    "chai-things": "~0.2",
-    "path": "~0.4"
-  },
   "peerDependencies": {
-    "karma": "~0.10"
+    "chai-things": "*",
+    "karma": "~0.6 || ~0.8 || ~0.10 || ~0.12"
+  },
+  "engines": {
+   "node": "~0.8 || ~0.10"
   }
 }
