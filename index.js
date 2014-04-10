@@ -5,7 +5,7 @@ var pattern = function(file) {
 };
 
 var framework = function(files) {
-  files.unshift(pattern(path.resolve(require.resolve('chai-things'))));
+  files.unshift(pattern(path.dirname(require.resolve('chai-things')) + '/lib/chai-things.js'));
 };
 
 framework.$inject = ['config.files'];
