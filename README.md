@@ -9,7 +9,7 @@ for [Karma](http://karma-runner.github.io)
 Requirements
 ------------
 
-This Karma plugin requires Karma `~0.6+`
+This Karma plugin requires Karma `~0.6` or higher.
 
 Installation
 ------------
